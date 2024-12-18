@@ -1,0 +1,168 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #111;
+    color: #fff;
+    line-height: 1.6;
+    margin: 0;
+  }
+  
+  /* Header Section */
+  .header {
+    background-color: #333;
+    color: #ff4747;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+  }
+  
+  .header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .header nav a:hover {
+    color: #ff4747;
+  }
+  
+  /* Search Bar */
+  .search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    border:2px solid inline black;
+  }
+  
+  .search-container input {
+    width: 60%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .search-container button {
+    background-color: #ff4747;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .search-container button:hover {
+    background-color: #e63e3e;
+  }
+  
+  /* Genre Tags */
+  .genre-tags {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  
+  .genre-tags .tag {
+    background-color: #ff4747;
+    color: #fff;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .genre-tags .tag:hover {
+    background-color: #e63e3e;
+  }
+  
+  /* Movies Grid */
+  .movies {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .movie-card {
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: 80%;
+  }
+  
+  .movie-card h3 {
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+  }
+  
+  .movie-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  .police {
+    height: 50px;
+    width: 50px;
+  }
+  #iii {
+    text-decoration: underline;
+  }
+  .webseries{
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display:inline-block
+  }
+  .webseries img {
+    width: 100px;
+    height: 80px;
+   text-align: left;
+  }
+  .webseries h3{
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+  }
+  .webseries:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  }
+  
